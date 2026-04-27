@@ -1,6 +1,6 @@
 # AI Engineer Track
 
-A 24-week, public-by-default journey from competent engineer to top-tier **AI engineer** working on applied ML, agents, Rust-based inference, and Go-based AI infrastructure.
+A 24-week, public-by-default journey from competent engineer to top-tier **AI engineer** — applied ML, agents, and 8 weeks of Rust spanning fundamentals, async serving, model implementation, and a custom inference engine.
 
 This repo is the artifact of that work. Every week ships a project; every project lives in its own folder; every folder has a README explaining what it is and what I learned.
 
