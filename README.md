@@ -39,11 +39,11 @@ The plan is structured around **two anchor texts** — Chip Huyen's *AI Engineer
 - [ ] [Week 16 — PagedAttention explainer](./phase4-rust-inference/week16-paged-attention-explainer)
 - [ ] [Week 17 — Speculative decoding (or vLLM/candle PR)](./phase4-rust-inference/week17-spec-decoding)
 
-### Phase 5 — Go + AI Infrastructure (Weeks 18–21)
-- [ ] [Week 18 — RAG ingestion in Go](./phase5-go-infra/week18-rag-ingest-go)
-- [ ] [Week 19 — Ollama-backed eval CLI](./phase5-go-infra/week19-ollama-evals)
-- [ ] [Week 20 — MCP server (Go)](./phase5-go-infra/week20-mcp-server-go)
-- [ ] [Week 21 — Multi-agent orchestrator](./phase5-go-infra/week21-agent-orchestrator)
+### Phase 5 — Rust ML Internals (Weeks 18–21)
+- [ ] [Week 18 — Tokenizers in Rust](./phase5-rust-internals/week18-tokenizers-rust)
+- [ ] [Week 19 — Candle deep dive: implement Llama-3](./phase5-rust-internals/week19-candle-llama)
+- [ ] [Week 20 — Build a mini inference engine](./phase5-rust-internals/week20-mini-inference-engine)
+- [ ] [Week 21 — Rust capstone (spec decoding / PR / OSS)](./phase5-rust-internals/week21-rust-capstone)
 
 ### Phase 6 — Frontier + Capstone (Weeks 22–24)
 - [ ] [Week 22 — QLoRA fine-tune](./phase6-frontier-capstone/week22-qlora-task)
@@ -61,12 +61,11 @@ See [PROGRESS.md](./PROGRESS.md) for weekly write-ups.
 
 ## Languages
 
-| Language   | Used in           | Purpose                                                    |
-|------------|-------------------|------------------------------------------------------------|
-| Python     | Phases 1–3, 6     | Model layer: prompting, RAG, agents, fine-tuning           |
-| TypeScript | Phase 3, capstone | Agent product surfaces, MCP servers                        |
-| Rust       | Phase 4           | Inference internals, async serving, performance hot paths  |
-| Go         | Phase 5           | AI infrastructure, orchestration, MCP servers              |
+| Language   | Used in              | Purpose                                                                          |
+|------------|----------------------|----------------------------------------------------------------------------------|
+| Python     | Phases 1–3, 6        | Model layer: prompting, RAG, agents, fine-tuning                                 |
+| TypeScript | Phase 3, capstone    | Agent product surfaces, MCP servers                                              |
+| Rust       | **Phases 4 + 5**     | Inference internals, async serving, tokenizers, candle, custom inference engine  |
 
 ## License
 
