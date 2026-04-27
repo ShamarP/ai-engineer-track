@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+.python-version
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / TS
+node_modules/
+dist/
+.next/
+*.tsbuildinfo
+.npm/
+
+# Rust
+target/
+Cargo.lock.bak
+
+# Go
+bin/
+*.exe
+*.test
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Local data
+data/
+*.db
+*.sqlite
+*.sqlite3
+checkpoints/
+logs/
+runs/
+wandb/
+mlruns/
+
+# Models
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.onnx
