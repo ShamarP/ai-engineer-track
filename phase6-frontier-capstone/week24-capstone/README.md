@@ -13,30 +13,39 @@
 
 ## 🛠 Build — `capstone-{your-project}`
 
-Ship one **real, public, useful** thing that combines the whole stack:
-- [ ] Python or TypeScript agent core
-- [ ] A frontend (TS or Templ + HTMX, even small)
-- [ ] A Rust component (week-15 inference proxy *or* a custom tokenizer microservice)
-- [ ] A Go component (week-21 orchestrator *or* MCP server)
-- [ ] RAG + persistent memory (Phases 2–3)
-- [ ] Evals + observability (weeks 7, 13)
-- [ ] Optional: a QLoRA-tuned or distilled model in the loop (weeks 22–23)
-- [ ] A README that walks a stranger through the architecture
+**Pick one of three product shapes** (don't try to combine all your phase outputs — that's busywork). Each shape highlights a specific portfolio narrative:
 
-Solve a problem **you actually have**. Examples:
-- Personal research assistant that ingests papers + your notes + your calendar
-- Code review agent for your own repos
-- An MCP-powered "second brain" tool that wires your Personal Wiki into Claude Desktop
-- Anything you'd actually use weekly
+### Shape A — "I can ship serious applied AI"
+For: applied/product AI engineer interviews
+- [ ] A real agent product with RAG, persistent memory, evals, tracing
+- [ ] Multimodal feature (W23) — voice or vision input
+- [ ] Fine-tuned or distilled model in the loop (W22)
+- [ ] Frontend (TS or HTMX), public, deployed
+
+### Shape B — "I can build inference systems"
+For: inference/platform engineer interviews at FAANG/foundation labs (your stated target)
+- [ ] Polish your W20 inference engine into an open-source release
+- [ ] Add: quantization (W18), spec decoding (W21 if you took that path), an OpenAI-compatible API
+- [ ] Real benchmarks vs. vLLM/llama.cpp on at least one model
+- [ ] Submit to Hacker News with a launch post
+
+### Shape C — "I can do both" (ambitious)
+- [ ] Your inference engine (Shape B) + a real product on top of it (Shape A's agent), where the agent uses your engine as the backend
+- [ ] Hardest path; strongest portfolio if you pull it off
 
 ## ✅ Done when
-- [ ] Public on GitHub, > 5 commits, README, ≥ 1 merged PR (yours or a friend's)
-- [ ] A stranger uses it on their machine and it works
+- [ ] The project is public on GitHub with > 5 commits, a README
+- [ ] A stranger uses it and it works
 - [ ] You write a launch post explaining what you built and why
-- [ ] You list all 24 weeks' projects on a single portfolio page
+- [ ] Your top-level repo README links to all 24 weeks' work
 
 ## 🎯 Stretch
-- [ ] Actually ship it as a product (Stripe, landing page, two paying users)
+- [ ] Ship it as a product (Stripe, landing page, two paying users)
+- [ ] For Shape B: get someone to use your engine in their project
+
+## Recommended shape for your target
+
+**Shape B is most aligned with FAANG/foundation lab inference roles** (your stated target). Shape C is even better if you can afford the time. Shape A is the right pick if your interviews are leaning more applied/product.
 
 ---
 

@@ -40,15 +40,15 @@ The plan is structured around **two anchor texts** — Chip Huyen's *AI Engineer
 - [ ] [Week 17 — Speculative decoding (or vLLM/candle PR)](./phase4-rust-inference/week17-spec-decoding)
 
 ### Phase 5 — Rust ML Internals (Weeks 18–21)
-- [ ] [Week 18 — Tokenizers in Rust](./phase5-rust-internals/week18-tokenizers-rust)
-- [ ] [Week 19 — Candle deep dive: implement Llama-3](./phase5-rust-internals/week19-candle-llama)
+- [ ] [Week 18 — GGUF format + INT8 quantization in Rust](./phase5-rust-internals/week18-gguf-quantization)
+- [ ] [Week 19 — Candle deep dive: Phi-3.5-mini or Qwen2.5-1.5B](./phase5-rust-internals/week19-candle-llama)
 - [ ] [Week 20 — Build a mini inference engine](./phase5-rust-internals/week20-mini-inference-engine)
 - [ ] [Week 21 — Rust capstone (spec decoding / PR / OSS)](./phase5-rust-internals/week21-rust-capstone)
 
-### Phase 6 — Frontier + Capstone (Weeks 22–24)
-- [ ] [Week 22 — QLoRA fine-tune](./phase6-frontier-capstone/week22-qlora-task)
-- [ ] [Week 23 — Distillation + cost engineering](./phase6-frontier-capstone/week23-distill)
-- [ ] [Week 24 — Capstone](./phase6-frontier-capstone/week24-capstone)
+### Phase 6 — Modern AI Breadth + Capstone (Weeks 22–24)
+- [ ] [Week 22 — Fine-tuning mastery (QLoRA + DPO + light distillation)](./phase6-frontier-capstone/week22-finetune)
+- [ ] [Week 23 — Multimodal: voice + vision-language](./phase6-frontier-capstone/week23-multimodal)
+- [ ] [Week 24 — Capstone (3 product shapes)](./phase6-frontier-capstone/week24-capstone)
 
 See [PROGRESS.md](./PROGRESS.md) for weekly write-ups.
 
